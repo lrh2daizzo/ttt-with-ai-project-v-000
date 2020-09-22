@@ -1,4 +1,4 @@
 module Players
-  class Compute < player 
+  class Compute < player
   end
 end
