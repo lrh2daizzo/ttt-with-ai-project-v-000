@@ -87,5 +87,5 @@ class Game
       play_again = gets.strip
     end
   end
-  
+
 end
