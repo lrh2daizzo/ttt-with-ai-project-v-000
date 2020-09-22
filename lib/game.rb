@@ -30,7 +30,10 @@ class Game
      board.cells[win_combo[0]] == board.cells[win_combo[1]] &&
      board.cells[win_combo[1]] == board.cells[win_combo[2]] &&
      board.taken?(win_combo[0]+1)
-   end
+    end
+  end
+
+  def draw?
   end
 
 end
