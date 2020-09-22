@@ -38,5 +38,7 @@ class Game
   end
 
   def over?
+    draw?
   end
+  
 end
