@@ -1,4 +1,4 @@
 module Players
-  class Compute < Player
+  class Computer < Player
   end
 end
