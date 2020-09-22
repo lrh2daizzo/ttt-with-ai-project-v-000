@@ -61,4 +61,31 @@ class Game
       puts "\n\n"
     end
   end
+
+  def play
+    while !over?
+      turn
+    end
+
+    if won?
+      puts "Congratulations #{winner}!"
+    elsif draw?
+      puts "Cat's Game!"
+    end
+  end
+
+  def play_again
+    play_again = ""
+    puts "Would you like to play again?"
+    play_again = gets.strip
+      while play_again.downcase == "y" || play_again.downcase == "Yes"
+        game = Game.new
+        until game.won?
+          game.play
+        end
+      puts "Would you like to play again?"
+      play_again = gets.strip
+    end
+  end
+  
 end
