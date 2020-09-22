@@ -42,7 +42,7 @@ class Game
   end
 
   def winner
-    binding.pry 
+    binding.pry
   end
-  
+
 end
