@@ -42,7 +42,9 @@ class Game
   end
 
   def winner
-
+    if won?
+      self.board.cells[won?[0]]
+    end
   end
 
 end
