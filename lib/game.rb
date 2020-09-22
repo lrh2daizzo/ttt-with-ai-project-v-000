@@ -42,7 +42,7 @@ class Game
   end
 
   def winner
-    
+
   end
 
 end
