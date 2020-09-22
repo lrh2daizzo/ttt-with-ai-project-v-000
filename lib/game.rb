@@ -37,4 +37,6 @@ class Game
     !won? && self.board.full?
   end
 
+  def over?
+  end
 end
